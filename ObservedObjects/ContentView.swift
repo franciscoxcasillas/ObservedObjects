@@ -41,12 +41,10 @@ struct SecondView: View {
                     ViewModel.increment()
                 }
                 .buttonStyle(BorderedProminentButtonStyle())
-                .frame(width: 150)
                 Button("Decrement"){
                     ViewModel.decrement()
                 }
                 .buttonStyle(BorderedProminentButtonStyle())
-                .frame(width: 150)
             }
         }
     }
